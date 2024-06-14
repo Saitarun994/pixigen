@@ -39,7 +39,7 @@ function MobileNav() {
                             className='cursor-pointer'
                         />
                     </SheetTrigger>
-                    <SheetContent className='sheet-content sm:w-64'>
+                    <SheetContent className='sheet-content sm:w-64 border-l-4 border-black'>
                         <>
                         <Image
                             src='/assets/images/logo-icon.png'
