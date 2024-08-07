@@ -10,7 +10,7 @@ export const navLinks = [
       icon: "/assets/icons/image.svg",
     },
     {
-      label: "Generative Fill",
+      label: "Generative Out-Fill",
       route: "/transformations/add/fill",
       icon: "/assets/icons/stars.svg",
     },
@@ -136,7 +136,7 @@ export const navLinks = [
     },
     fill: {
       type: "fill",
-      title: "Generative Fill",
+      title: "Generative Out-Fill",
       subTitle: "Enhance an image's dimensions using AI outpainting",
       config: { fillBackground: true },
       icon: "stars.svg",

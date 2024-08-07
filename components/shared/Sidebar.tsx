@@ -25,10 +25,10 @@ function Sidebar() {
                             const isActive = link.route === pathname
                             return(
                                 <li key={link.route} className={`sidebar-nav_element rounded-md group border-4 shadow-xl ${
-                                    isActive ? 'border-gray-800 bg-purple-500 hover:bg-purple-500 text-white' : 
-                                    'border-gray-800 text-gray-800 bg-white'} hover:bg-purple-300
-                                     hover:border-gray-900 hover:translate-y-[-5px] hover:translate-x-[-5px]
-                                      hover:shadow-2xl transition-all duration-200 `}>
+                                    isActive ? 'border-black bg-purple-500 hover:bg-purple-500 text-white' : 
+                                    'border-black text-gray-800 bg-white'} hover:bg-purple-300
+                                     hover:border-gray-900 hover:translate-y-[5px] hover:translate-x-[5px]
+                                      hover:shadow-none transition-all duration-100 shadow-[5px_5px_0px_2px_#000000] mb-5`}>
                                     <Link className='sidebar-link' href={link.route}>
                                      <Image 
                                         src={link.icon}
@@ -52,15 +52,14 @@ function Sidebar() {
                                     <li key={link.route} className={`sidebar-nav_element rounded-md group  ${
                                         isActive ? 'border-gray-800 bg-purple-500 text-white' : 
                                         'border-gray-800 text-gray-800 bg-white'} hover:bg-gray-300
-                                        hover:border-gray-900 hover:translate-y-[-5px] hover:translate-x-[-5px]
-                                        hover:shadow-2xl transition-all duration-200 `}>
+                                        hover:border-gray-900 hover:shadow-2xl transition-all duration-200`}>
                                         <Link className='sidebar-link' href={link.route}>
                                         <Image 
                                             src={link.icon}
                                             alt="link logo"
                                             width={24}
                                             height={24}
-                                            className={`${isActive && 'brightness-200' }`}
+                                            className={`${isActive && 'brightness-200' } mx-2`}
                                         />
                                         {link.label}
                                         </Link>

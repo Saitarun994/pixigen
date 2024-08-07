@@ -64,6 +64,8 @@ export async function deleteUser(clerkId: string) {
   }
 }
 
+
+// TODO: Change the creditfee to something else later
 // Function to update the credits balance of a user.
 export async function updateCredits(userId: string, creditFee: number) {
   try {
@@ -79,3 +81,5 @@ export async function updateCredits(userId: string, creditFee: number) {
     handleError(error);
   }
 }
+
+

@@ -74,7 +74,7 @@ function MobileNav() {
                 </Sheet>
             </SignedIn>
             <SignedOut>
-                <Button asChild className='button bg-purple-gradient bg-cover'>
+                <Button asChild className='button bg-purple-gradient bg-cover border-4 border-black shadow-[5px_5px_0px_0px_rgba(0,0,0)]'>
                     <Link href='/sign-in'>
                         Login
                     </Link>
