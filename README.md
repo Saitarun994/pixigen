@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+<img src="media/banner.png">
+</h1> 
 
-## Getting Started
+# Pixigen: AI-Powered Image Manipulation Platform
 
-First, run the development server:
+<div align="center">
+  <p align="justify">
+Pixigen is a SaaS platform designed for advanced image editing using generative AI. The platform offers a range of tools, including image restoration, generative outfill, object removal, object recoloring, and background removal. Built using the MERN stack, Pixigen provides a seamless and user-friendly experience with secure authentication and payment integration.
+  </p>
+</div>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Try Pixigen live:** [https://pixigen-dusky.vercel.app/](https://pixigen-dusky.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🔑 Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Image Restoration
+Repair and enhance old or damaged photos.
 
-To learn more about Next.js, take a look at the following resources:
+<img src="media/restore.png" width=75%>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Generative Outfill
+Extend images by filling missing or undefined areas.
 
-## Deploy on Vercel
+<img src="media/expand.png" width=75%>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Object Removal
+Effortlessly remove unwanted objects from images.
+
+<img src="media/oremove.png" width=75%>
+
+
+## Object Recoloring
+Change the color of objects while preserving their natural look.
+
+<img src="media/recolor.png" width=75%>
+
+
+## Background Removal
+Remove or replace backgrounds with precision.
+
+<img src="media/remove.png" width=75%>
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Cloud Services**: Cloudinary (image storage), Stripe (payment integration)
+- **Authentication**: Clerk
+
+---
+
+## 📃 Getting Started
+
+Follow these steps to set up the project locally:
+
+### Prerequisites
+
+Ensure you have the following installed:
+- Node.js (>=14.x)
+- MongoDB
+- npm or yarn
+- A Cloudinary account (for image handling)
+- A Stripe account (for payment processing)
+- A Clerk account (for authentication)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/pixigen.git
+   cd pixigen
